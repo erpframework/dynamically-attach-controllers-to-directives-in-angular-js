@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen"/>
+	</head>
+	<body ng-app="testApp">
+		<div class="container">
+			<div class="row">  
+				<div class="col-md-3">
+					<h4>Directive with controllerOne.</h4>
+					<my-directive ctrl-name="controllerOne">
+					</my-directive>
+				</div>
+				<div class="col-md-3">
+					<h4>Directive with controllerTwo.</h4>
+					<my-directive ctrl-name="controllerTwo">
+					</my-directive>
+				</div>
+			</div>
+		</div> 
+	</body>
+	<script src="https://code.angularjs.org/1.2.27/angular.min.js"></script>
+	<script src="js/testApp.js"></script>	
+</html>
